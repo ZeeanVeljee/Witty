@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		593EAB931CFF8D000097E762 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 593EAB921CFF8D000097E762 /* GoogleService-Info.plist */; };
 		595F1E3F1CC2C24300593DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E3E1CC2C24300593DD5 /* AppDelegate.swift */; };
-		595F1E411CC2C24300593DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E401CC2C24300593DD5 /* ViewController.swift */; };
+		595F1E411CC2C24300593DD5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E401CC2C24300593DD5 /* LogInViewController.swift */; };
 		595F1E441CC2C24300593DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595F1E421CC2C24300593DD5 /* Main.storyboard */; };
 		595F1E471CC2C24300593DD5 /* Witty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E451CC2C24300593DD5 /* Witty.xcdatamodeld */; };
 		595F1E491CC2C24300593DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595F1E481CC2C24300593DD5 /* Assets.xcassets */; };
 		595F1E4C1CC2C24300593DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595F1E4A1CC2C24300593DD5 /* LaunchScreen.storyboard */; };
 		595F1E571CC2C24300593DD5 /* WittyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E561CC2C24300593DD5 /* WittyTests.swift */; };
 		595F1E621CC2C24300593DD5 /* WittyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E611CC2C24300593DD5 /* WittyUITests.swift */; };
+		595F1E701CC2CC2600593DD5 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E6F1CC2CC2600593DD5 /* CreateAccountViewController.swift */; };
+		595F1E721CC2CCE000593DD5 /* WittyFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E711CC2CCE000593DD5 /* WittyFeedTableViewController.swift */; };
+		595F1E741CC2CE9A00593DD5 /* WittyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595F1E731CC2CE9A00593DD5 /* WittyTableViewCell.swift */; };
+		59886C2D1CFE243F00C0F3F1 /* AddWitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59886C2C1CFE243F00C0F3F1 /* AddWitViewController.swift */; };
+		59886C2F1CFE2A5300C0F3F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59886C2E1CFE2A5300C0F3F1 /* Constants.swift */; };
+		59886C311CFE2A6B00C0F3F1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59886C301CFE2A6B00C0F3F1 /* DataService.swift */; };
+		59886C331CFE2A7C00C0F3F1 /* Wit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59886C321CFE2A7C00C0F3F1 /* Wit.swift */; };
+		CEF828B83100306C2F80FD40 /* Pods_WittyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDE4E9969EB687BC41352E3 /* Pods_WittyTests.framework */; };
+		E74EE68F453C3966D8AFAA16 /* Pods_Witty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851FF0CC8836D3A30DDF85F /* Pods_Witty.framework */; };
+		FFF00D401465455261B1E2C0 /* Pods_WittyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7417F0D0555CC3F1886A283D /* Pods_WittyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1851FF0CC8836D3A30DDF85F /* Pods_Witty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Witty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		235B14C2531771D9E17226BB /* Pods-WittyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WittyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WittyUITests/Pods-WittyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40CBEB293BDD57718F0E0D6E /* Pods-WittyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WittyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WittyUITests/Pods-WittyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		593EAB921CFF8D000097E762 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		595F1E3B1CC2C24300593DD5 /* Witty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Witty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F1E3E1CC2C24300593DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		595F1E401CC2C24300593DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		595F1E401CC2C24300593DD5 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		595F1E431CC2C24300593DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		595F1E461CC2C24300593DD5 /* Witty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Witty.xcdatamodel; sourceTree = "<group>"; };
 		595F1E481CC2C24300593DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +64,19 @@
 		595F1E5D1CC2C24300593DD5 /* WittyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WittyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		595F1E611CC2C24300593DD5 /* WittyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WittyUITests.swift; sourceTree = "<group>"; };
 		595F1E631CC2C24300593DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595F1E6F1CC2CC2600593DD5 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		595F1E711CC2CCE000593DD5 /* WittyFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WittyFeedTableViewController.swift; sourceTree = "<group>"; };
+		595F1E731CC2CE9A00593DD5 /* WittyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WittyTableViewCell.swift; sourceTree = "<group>"; };
+		59886C2C1CFE243F00C0F3F1 /* AddWitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWitViewController.swift; sourceTree = "<group>"; };
+		59886C2E1CFE2A5300C0F3F1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		59886C301CFE2A6B00C0F3F1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		59886C321CFE2A7C00C0F3F1 /* Wit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wit.swift; sourceTree = "<group>"; };
+		6AAB9291378937AE5AA3C4A5 /* Pods-WittyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WittyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WittyTests/Pods-WittyTests.release.xcconfig"; sourceTree = "<group>"; };
+		7417F0D0555CC3F1886A283D /* Pods_WittyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WittyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDE4E9969EB687BC41352E3 /* Pods_WittyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WittyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E01DC172E38B01851CE9B810 /* Pods-WittyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WittyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WittyTests/Pods-WittyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8F721008E602461FDFA8CEF /* Pods-Witty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Witty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Witty/Pods-Witty.release.xcconfig"; sourceTree = "<group>"; };
+		F7C9313E432C4D0DA6C6C6CE /* Pods-Witty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Witty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Witty/Pods-Witty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74EE68F453C3966D8AFAA16 /* Pods_Witty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF828B83100306C2F80FD40 /* Pods_WittyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +100,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF00D401465455261B1E2C0 /* Pods_WittyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018479A8447A34A41F640CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1851FF0CC8836D3A30DDF85F /* Pods_Witty.framework */,
+				AFDE4E9969EB687BC41352E3 /* Pods_WittyTests.framework */,
+				7417F0D0555CC3F1886A283D /* Pods_WittyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		595F1E321CC2C24300593DD5 = {
 			isa = PBXGroup;
 			children = (
+				593EAB921CFF8D000097E762 /* GoogleService-Info.plist */,
 				595F1E3D1CC2C24300593DD5 /* Witty */,
 				595F1E551CC2C24300593DD5 /* WittyTests */,
 				595F1E601CC2C24300593DD5 /* WittyUITests */,
 				595F1E3C1CC2C24300593DD5 /* Products */,
+				A12C0CC5E4A25EDA37E0401C /* Pods */,
+				018479A8447A34A41F640CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				595F1E3E1CC2C24300593DD5 /* AppDelegate.swift */,
-				595F1E401CC2C24300593DD5 /* ViewController.swift */,
+				595F1E401CC2C24300593DD5 /* LogInViewController.swift */,
 				595F1E421CC2C24300593DD5 /* Main.storyboard */,
+				59886C2E1CFE2A5300C0F3F1 /* Constants.swift */,
+				59886C301CFE2A6B00C0F3F1 /* DataService.swift */,
+				59886C321CFE2A7C00C0F3F1 /* Wit.swift */,
+				59886C2C1CFE243F00C0F3F1 /* AddWitViewController.swift */,
+				595F1E731CC2CE9A00593DD5 /* WittyTableViewCell.swift */,
+				595F1E711CC2CCE000593DD5 /* WittyFeedTableViewController.swift */,
+				595F1E6F1CC2CC2600593DD5 /* CreateAccountViewController.swift */,
 				595F1E481CC2C24300593DD5 /* Assets.xcassets */,
 				595F1E4A1CC2C24300593DD5 /* LaunchScreen.storyboard */,
 				595F1E4D1CC2C24300593DD5 /* Info.plist */,
@@ -128,6 +179,19 @@
 			path = WittyUITests;
 			sourceTree = "<group>";
 		};
+		A12C0CC5E4A25EDA37E0401C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C9313E432C4D0DA6C6C6CE /* Pods-Witty.debug.xcconfig */,
+				E8F721008E602461FDFA8CEF /* Pods-Witty.release.xcconfig */,
+				E01DC172E38B01851CE9B810 /* Pods-WittyTests.debug.xcconfig */,
+				6AAB9291378937AE5AA3C4A5 /* Pods-WittyTests.release.xcconfig */,
+				235B14C2531771D9E17226BB /* Pods-WittyUITests.debug.xcconfig */,
+				40CBEB293BDD57718F0E0D6E /* Pods-WittyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 595F1E661CC2C24300593DD5 /* Build configuration list for PBXNativeTarget "Witty" */;
 			buildPhases = (
+				435D2E12FF88A29FC771D80F /* [CP] Check Pods Manifest.lock */,
 				595F1E371CC2C24300593DD5 /* Sources */,
 				595F1E381CC2C24300593DD5 /* Frameworks */,
 				595F1E391CC2C24300593DD5 /* Resources */,
+				DE56FC9FBA87DEAB0B16E51B /* [CP] Embed Pods Frameworks */,
+				A7E1EFFA0314715B11866B11 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 595F1E691CC2C24300593DD5 /* Build configuration list for PBXNativeTarget "WittyTests" */;
 			buildPhases = (
+				28E9F51A89B752CA0CDE806B /* [CP] Check Pods Manifest.lock */,
 				595F1E4E1CC2C24300593DD5 /* Sources */,
 				595F1E4F1CC2C24300593DD5 /* Frameworks */,
 				595F1E501CC2C24300593DD5 /* Resources */,
+				BABE552EB801D6A3DB469CD7 /* [CP] Embed Pods Frameworks */,
+				13B8D733E7A7AF9792C3C90A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 595F1E6C1CC2C24300593DD5 /* Build configuration list for PBXNativeTarget "WittyUITests" */;
 			buildPhases = (
+				CA19115E5A8ADD8CB36FE649 /* [CP] Check Pods Manifest.lock */,
 				595F1E591CC2C24300593DD5 /* Sources */,
 				595F1E5A1CC2C24300593DD5 /* Frameworks */,
 				595F1E5B1CC2C24300593DD5 /* Resources */,
+				BA23D804ACF3E7ACDFBD6684 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,21 +263,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Zed;
 				TargetAttributes = {
 					595F1E3A1CC2C24300593DD5 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5KDB6SE87S;
+						LastSwiftMigration = 0800;
 					};
 					595F1E511CC2C24300593DD5 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5KDB6SE87S;
+						LastSwiftMigration = 0800;
 						TestTargetID = 595F1E3A1CC2C24300593DD5;
 					};
 					595F1E5C1CC2C24300593DD5 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5KDB6SE87S;
+						LastSwiftMigration = 0800;
 						TestTargetID = 595F1E3A1CC2C24300593DD5;
 					};
 				};
@@ -236,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				595F1E4C1CC2C24300593DD5 /* LaunchScreen.storyboard in Resources */,
+				593EAB931CFF8D000097E762 /* GoogleService-Info.plist in Resources */,
 				595F1E491CC2C24300593DD5 /* Assets.xcassets in Resources */,
 				595F1E441CC2C24300593DD5 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +333,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13B8D733E7A7AF9792C3C90A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WittyTests/Pods-WittyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28E9F51A89B752CA0CDE806B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		435D2E12FF88A29FC771D80F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E1EFFA0314715B11866B11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Witty/Pods-Witty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA23D804ACF3E7ACDFBD6684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WittyUITests/Pods-WittyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BABE552EB801D6A3DB469CD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WittyTests/Pods-WittyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA19115E5A8ADD8CB36FE649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE56FC9FBA87DEAB0B16E51B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Witty/Pods-Witty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		595F1E371CC2C24300593DD5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59886C311CFE2A6B00C0F3F1 /* DataService.swift in Sources */,
+				595F1E701CC2CC2600593DD5 /* CreateAccountViewController.swift in Sources */,
+				595F1E741CC2CE9A00593DD5 /* WittyTableViewCell.swift in Sources */,
 				595F1E471CC2C24300593DD5 /* Witty.xcdatamodeld in Sources */,
-				595F1E411CC2C24300593DD5 /* ViewController.swift in Sources */,
+				59886C2D1CFE243F00C0F3F1 /* AddWitViewController.swift in Sources */,
+				595F1E411CC2C24300593DD5 /* LogInViewController.swift in Sources */,
 				595F1E3F1CC2C24300593DD5 /* AppDelegate.swift in Sources */,
+				595F1E721CC2CCE000593DD5 /* WittyFeedTableViewController.swift in Sources */,
+				59886C331CFE2A7C00C0F3F1 /* Wit.swift in Sources */,
+				59886C2F1CFE2A5300C0F3F1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +538,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -376,8 +584,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -396,63 +606,80 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		595F1E671CC2C24300593DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C9313E432C4D0DA6C6C6CE /* Pods-Witty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Witty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.Witty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		595F1E681CC2C24300593DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F721008E602461FDFA8CEF /* Pods-Witty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Witty/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.Witty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		595F1E6A1CC2C24300593DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E01DC172E38B01851CE9B810 /* Pods-WittyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WittyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.WittyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Witty.app/Witty";
 			};
 			name = Debug;
 		};
 		595F1E6B1CC2C24300593DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAB9291378937AE5AA3C4A5 /* Pods-WittyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WittyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.WittyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Witty.app/Witty";
 			};
 			name = Release;
 		};
 		595F1E6D1CC2C24300593DD5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235B14C2531771D9E17226BB /* Pods-WittyUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WittyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.WittyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Witty;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,11 +687,13 @@
 		};
 		595F1E6E1CC2C24300593DD5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CBEB293BDD57718F0E0D6E /* Pods-WittyUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WittyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Zed.WittyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Witty;
 				USES_XCTRUNNER = YES;
 			};
@@ -489,6 +718,7 @@
 				595F1E681CC2C24300593DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595F1E691CC2C24300593DD5 /* Build configuration list for PBXNativeTarget "WittyTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +727,7 @@
 				595F1E6B1CC2C24300593DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		595F1E6C1CC2C24300593DD5 /* Build configuration list for PBXNativeTarget "WittyUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +736,7 @@
 				595F1E6E1CC2C24300593DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

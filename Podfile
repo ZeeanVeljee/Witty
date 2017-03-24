@@ -5,7 +5,7 @@ target 'Witty' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-pod 'Firebase', '>=2.5.0'
+pod 'Firebase'
 pod 'Firebase/Database'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
